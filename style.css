@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  font-family: sans-serif, arial, helvetica;
+
+}
+.fa-brands{
+  color: blue;
+}
+
+
+.fa-brands:hover{
+
+  color: white;
+}
+
+.far , .fas{
+  margin-bottom: 28px;
+  color: #0b36a8;
+  font-size: 56px;
+}
+
+main {
+  background-image: url(images/me3.jpg);
+  background-size: cover;
+  padding-bottom: 200px;
+
+
+
+}
+
+nav {
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+
+
+
+
+}
+
+
+
+#my-logo {
+
+  margin-top: 14px;
+  width: 60px;
+
+}
+
+.nav-items ul li {
+
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 20px;
+  color: white;
+
+}
+
+.nav-items ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+
+
+}
+
+.nav-items ul li a:hover {
+  color: gray;
+
+
+}
+
+.nav-items {
+
+  margin-left: 30px;
+  display: flex;
+}
+
+.main-text {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  padding-bottom: 50px;
+
+}
+
+.large-size-font {
+  font-size: 55px;
+  font-weight: 550;
+  color: rgb(223, 46, 155);
+}
+
+.btn {
+  font-size: 14px;
+  color: white;
+  border: 1px solid transparent;
+  padding: 14px 35px;
+  cursor: pointer;
+
+
+}
+
+.primary-btn {
+
+  background-color: #0b36a8;
+
+}
+
+
+.main-buttons a {
+  color: white;
+  margin: 15px;
+  font-size: 15px;
+  cursor: pointer;
+
+
+
+}
+
+.main-buttons a:hover {
+  color: gray;
+
+
+}
+
+.material-symbols-outlined {
+  font-size: 15px;
+
+}
+
+.primary-btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+
+
+}
+
+.experince-section {
+  
+  padding-top: 150px;
+  padding-bottom: 150;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  background-color: #f7f9fb;
+  
+}
+
+.experince-section h2{
+  margin: 0;
+  color:#4B67C7 
+}
+
+.experince-section div{
+  width: 30%;
+
+  
+}
+
+.service {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2px;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-bottom: 100px;
+  color: #4d5055;
+  
+  
+}
+
+.service h1 {
+  flex-basis: 100%;
+  color: black;
+  text-align: center;
+
+}
+
+.service div{
+  flex-basis: 25%;
+  border: 1px solid #EEF0F3;
+  padding: 10px;
+}
+
+.service h2{
+  color: black;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.profile-pic{
+  flex:48%;
+  
+}
+
+.profile-pic img{
+  width: 100%;
+  
+  
+}
+.caption{
+  flex: 48%;
+
+}
+
+.caption li {
+  display: inline-block;
+}
+
+.caption li img {
+  width: 50px;
+  height: 50px;
+
+}
+
+.prv-projects {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.prv-projects .project img {
+  margin-top: 30px;
+  width: 90%;
+
+}
+
+.working {
+  width: 90%;
+  position: relative;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+
+}
+
+.working div {
+
+  flex-basis: 30%;
+
+
+}
+
+.working img {
+  width: 100%;
+}
+
+.header-client{
+
+  margin-left:auto ;
+  margin-right: auto;
+  text-align: center;
+  width:450px;
+}
+
+.all-clients {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+
+
+}
+
+.all-clients .client {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+
+
+
+}
+
+
+
+.all-clients .client .client-text {
+  display: flex;
+  
+
+
+
+}
+
+.all-clients .client .client-text img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin:0 15px 0 0
+
+}
+
+.all-clients h4,h5 {
+  margin: 0 0 10px 5px;
+}
+
+.contact-details {
+  text-align: center;
+
+
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(187, 183, 183);
+
+  top: 15px;
+}
+
+
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  color: white;
+  background-color: #24262A;
+
+}
+
+.footer-content ul li {
+
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.footer-content img {
+
+  width: 30px;
+  border-radius: 50%;
+
+}
